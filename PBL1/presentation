@@ -13,6 +13,7 @@
 
 구현하려는 기능에 적절한 백앤드 서비스를 찾아보니 Backendless가 있었다.
 우리는 Backendless와 가장 백앤드 서비스로 가장 잘 알려진 firebase를
-기능 & 비용으로 비교해 보았다.
+기능, 비용으로 비교해 보았다.
 
-## Firebase 와 Backendless 비교
+## 1. Firebase와 Backendless의 기능적 비교
+
