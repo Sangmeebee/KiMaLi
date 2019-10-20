@@ -20,35 +20,49 @@
             <Spinner
                 android:id="@+id/year_select"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
 
             <TextView
                 android:id="@+id/year"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="년" />
 
             <Spinner
                 android:id="@+id/month_select"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
 
             <TextView
                 android:id="@+id/month"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="월" />
 
             <Spinner
                 android:id="@+id/day_select"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
 
             <TextView
                 android:id="@+id/day"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="일" />
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"
+                android:text="confirm"
+                android:textSize="9dp" />
         </LinearLayout>
 
         <ListView
