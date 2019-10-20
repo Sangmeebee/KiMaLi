@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/background"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Map.ProtecterMapActivity2"
+        <activity android:name=".Login.Parent_missionList">
+
+        </activity>
+        <activity
+            android:name=".Map.ProtecterMapActivity2"
             android:label="@string/title_activity_protecter_map2"
-            android:theme="@style/AppTheme.NoActionBar"
-            ></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".TrafficLight.green_light" />
         <activity
             android:name=".TrafficLight.CameraActivity"
@@ -34,6 +37,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
             android:name=".FirstviewActivity"
