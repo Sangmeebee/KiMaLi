@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "845943599509",
+    "firebase_url": "https://kimari-158a1.firebaseio.com",
+    "project_id": "kimari-158a1",
+    "storage_bucket": "kimari-158a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845943599509:android:041729dd6add87974f069c",
+        "android_client_info": {
+          "package_name": "com.example.kmlpbl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845943599509-2pd8f8l1ei6isliask6mfsvqm2i856ij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kmlpbl",
+            "certificate_hash": "9031702cfbb9532ce21eb503b2c852f26b30b94d"
+          }
+        },
+        {
+          "client_id": "845943599509-pbvjrfcgjq1c61gsm1jnfg9q8nb6j1mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNdbSbF4B51iz2gdjwMw7RGoCiedkz-Ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845943599509-pbvjrfcgjq1c61gsm1jnfg9q8nb6j1mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
