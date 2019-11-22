@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Parent_missionList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/year_select"
+                    android:gravity="center"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/year"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                    android:textStyle="bold"
+                android:text="년" />
+
+            <TextView
+                android:id="@+id/month_select"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/month"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                    android:textStyle="bold"
+                android:text="월" />
+
+            <TextView
+                    android:textSize="20dp"
+                    android:gravity="center"
+                android:id="@+id/day_select"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/day"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                    android:textStyle="bold"
+                android:text="일" />
+
+            <Button
+                android:id="@+id/confirm"
+
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.1"
+                    android:background="@drawable/primary_border_fill_login"
+                android:text="날짜선택"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/mission_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "407770333468",
+    "firebase_url": "https://kimali.firebaseio.com",
+    "project_id": "kimali",
+    "storage_bucket": "kimali.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407770333468:android:b2dfbcad511219c7153ad9",
+        "android_client_info": {
+          "package_name": "com.example.kimali"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407770333468-1bb0jscsm2foe71a04nnhrgut55b0al1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kimali",
+            "certificate_hash": "41cd8a549b6b35576a59bfee672f5292cef7b52d"
+          }
+        },
+        {
+          "client_id": "407770333468-dvik5192s0nv2j1rr0pm2o3qpn03rkqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ3R-7Np2cuZsdjFJXTvVO1_pwknzeYdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407770333468-dvik5192s0nv2j1rr0pm2o3qpn03rkqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
